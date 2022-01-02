@@ -1,5 +1,5 @@
 import styled  from "styled-components";
-
+import { darken } from "polished";
 
 
 export const Container = styled.section`
@@ -7,7 +7,7 @@ export const Container = styled.section`
     align-items: center;
     justify-content: center;
     width: 100%;
-    background-color: var(--darker-bg);
+    background-color: ${darken(0.018, "#1e2125")} ;
     
 
     

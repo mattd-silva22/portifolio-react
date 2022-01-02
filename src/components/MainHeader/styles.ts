@@ -1,3 +1,4 @@
+import { darken } from "polished";
 import styled  from "styled-components";
 
 
@@ -8,7 +9,8 @@ export const Container = styled.header`
     justify-content: center;
     width: 100%;
     //background-color: #3c3e41;
-    background-color: rgba(60, 62, 65,0.05);
+    //background-color: rgba(60, 62, 65,0.05);
+    background-color: ${darken(0.018, "#1e2125")};
     
 
     font-size: 1.6rem;
@@ -47,13 +49,29 @@ export const Content = styled.div`
         display: none;
 
         .hambtn-bar {
-            width: 40px;
-            border-radius: 20px;
-            background-color: white;
-            height: 4px;
-            margin: 6px;
+            width: 38px;
+            height: 5px;
+            background-color: #fff;
+            border-radius: 5px;
+            margin: 6px 0;
+            transition: 0.4s;
         }
 
+    }
+
+    .active {
+            .hambtn-bar:nth-child(1) {
+            -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+            transform: rotate(-45deg) translate(-9px, 6px);
+        }
+        
+        .hambtn-bar:nth-child(2) {opacity: 0;}
+        
+        .hambtn-bar:nth-child(3) {
+        -webkit-transform: rotate(45deg) translate(-8px, -8px);
+        transform: rotate(45deg) translate(-8px, -8px);
+        }
+    
     }
 
     #navbar  li {
@@ -76,7 +94,7 @@ export const Content = styled.div`
         
     }
 
-    @media (max-width: 500px) {
+    @media (max-width: 720px) {
             #navbar{
                 display: none;
             }

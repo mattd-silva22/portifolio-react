@@ -1,8 +1,17 @@
+import { useState } from "react";
 import { Container, Content } from "./styles";
 
 export function MainHeader() {
 
-
+    const [ isbtnActive , setIsBtnState] = useState(false)
+    
+    const handleHamBtnClick = ()=> {
+        if(!isbtnActive) {
+            setIsBtnState(true)
+        } else {
+            setIsBtnState(false)
+        }
+    }
     return (
         <Container id="top-header">
             <Content id="header-container">
@@ -33,7 +42,7 @@ export function MainHeader() {
                     </ul>
                 </nav>
         
-                <div id="hambtn">
+                <div id="hambtn" className={ isbtnActive? "active" : ""} onClick={handleHamBtnClick}>
                     <div className="hambtn-bar"></div>
                     <div className="hambtn-bar"></div>
                     <div className="hambtn-bar"></div>
