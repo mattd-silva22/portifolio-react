@@ -53,6 +53,13 @@ export const GlobalStyle = createGlobalStyle`
         gap: 1.6rem;
     }
 
+    @media (max-width:920px) {
+        body.scrollock {
+            height: 100%;
+            overflow: hidden;
+        }
+    }
+
     
 
 

@@ -107,3 +107,73 @@ export const Content = styled.div`
     
                
     `
+
+    export const RespNavbar = styled.div`
+        #nav-resp.active {
+        
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+        
+            ul {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+                width: 100%;
+                
+        
+                gap: 2rem;
+        
+                font-weight: 400;
+        
+                list-style: none;
+                height: 100vh;
+
+                li {
+                    width: 100%;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    &:hover  {
+                        background-color: var(--blue-primary);
+                    }
+                }
+        
+                li a {
+                    font-size: 3rem;
+                    
+                    
+        
+                    &.link-btn {
+                        color: var(--yellow);
+                    }
+
+                    
+                }
+            
+            }
+        
+        }
+
+            .navtop-link {
+            font-size: 2.0rem;
+            color: honeydew;
+            text-decoration: none;
+            text-transform: capitalize;
+            padding: 5px;
+
+            &:hover{
+                color:  var(--yellow); ;
+            }
+        
+    }
+        
+        #nav-resp {
+            display: none;
+        }
+    
+    
+    
+    `
