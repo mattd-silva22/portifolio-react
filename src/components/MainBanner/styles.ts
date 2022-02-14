@@ -62,6 +62,9 @@ export const Content = styled.div`
 
     img {
         width: 600px;
+        @media(max-width: 1080px) {
+            display: none;
+        }
     }
     
     `

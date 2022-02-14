@@ -23,6 +23,10 @@ export const Content = styled.div`
     padding: 7.5rem 0;
     gap: 6.4rem;
 
+    @media(max-width: 1080px) {
+            flex-direction: column;
+        }
+
     
 
     font-size: 1.6rem;
