@@ -1,3 +1,4 @@
+import { darken } from "polished";
 import {createGlobalStyle} from "styled-components";
 
 
@@ -8,6 +9,7 @@ export const GlobalStyle = createGlobalStyle`
         --light-dark-bg: #3c3e41;
         --darker-purple: #7d4296;
         --blue-primary: #1F78B4;
+        --dark-100 : ${darken(0.008, "#1e2125")}
     }
     //    font-family: 'Cutive Mono', monospace;
 

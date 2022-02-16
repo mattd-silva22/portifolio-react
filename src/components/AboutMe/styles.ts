@@ -10,6 +10,8 @@ export const Container = styled.header`
 
     color: #fff;
 
+    background-color: var(--dark-100);
+
     
 
 `
@@ -20,8 +22,11 @@ export const Content = styled.div`
     align-items: center;
     width: 90%;
     max-width: 1444px;
-    padding: 7.5rem 0;
+    padding: 9.5rem 0;
     gap: 6.4rem;
+
+
+    
 
     @media(max-width: 1080px) {
             flex-direction: column;
@@ -60,7 +65,9 @@ export const Content = styled.div`
     
 
     img {
-        width: 500px;
+        width: 300px;
+        border: 5px solid gray;
+        border-radius: 50%;
     }
 
     

@@ -8,9 +8,8 @@ export const Container = styled.header`
     align-items: center;
     justify-content: center;
     width: 100%;
-    //background-color: #3c3e41;
-    //background-color: rgba(60, 62, 65,0.05);
-    background-color: ${darken(0.018, "#1e2125")};
+    background-color: #3c3e41;
+    background-color: ${darken(0.008, "#1e2125")};
     
 
     font-size: 1.6rem;
@@ -87,6 +86,7 @@ export const Content = styled.div`
         text-decoration: none;
         text-transform: capitalize;
         padding: 5px;
+
 
         &:hover{
             color: var(--blue-primary) ;

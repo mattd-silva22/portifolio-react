@@ -1,5 +1,5 @@
 import { Container, Content } from "./styles";
-import testImg from "../../assets/person.jpg"
+import testImg from "../../assets/me.jpeg"
 export function AboutMe() {
 
     return (
@@ -21,7 +21,7 @@ export function AboutMe() {
 
                 </section>
 
-                <img src={testImg} alt="" />
+                <img src={testImg} alt=""  className="my-pic"/>
             </Content>
         </Container>
     )

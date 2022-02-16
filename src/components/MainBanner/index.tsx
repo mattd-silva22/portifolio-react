@@ -9,6 +9,8 @@ export function MainBanner() {
                 <p className="code-text">printf("Hello World 💻")<span>|</span></p>
                 <h1 className="myname">Matheus Barretto</h1>
                 <p>Desenvolvedor Web</p>
+
+                
             </div>
 
             <img src={developerImg} alt="" />
