@@ -52,10 +52,15 @@ export const CardContainer = styled.header`
         width: 100%;
         gap: 3.2rem;
         a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.8rem;
             font-size: 2.0rem;
             padding: 0.5rem 1.5rem;
             text-decoration: none;
             color: #fff;
+
         }
         a:hover {
         filter: brightness(0.8);
@@ -66,6 +71,7 @@ export const CardContainer = styled.header`
             background-color: var(--blue-primary);
             color: #fff;
             border-radius: 2.5rem;
+            font-weight: 700;
         }
     }
 
