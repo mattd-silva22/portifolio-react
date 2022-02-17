@@ -15,7 +15,7 @@ export function ProjectCard(){
             </div>
 
             <div className="link-area">
-                <a href="#">Visite</a> <a href="#">Codigo Fonte</a>
+                <a href="#" className="visit-btn">Visite</a> <a href="#">Codigo Fonte</a>
             </div>
         </CardContainer>
     )

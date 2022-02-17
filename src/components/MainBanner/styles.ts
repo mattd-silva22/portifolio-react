@@ -52,10 +52,12 @@ export const Content = styled.div`
             color: honeydew;
             font-weight: 700;
             color: var(--blue-primary);
+            transition: all s ease-in-out;
 
             &:hover{
                 text-decoration: underline;
-                cursor: default;
+                
+                cursor: pointer;
             }
         }
     }

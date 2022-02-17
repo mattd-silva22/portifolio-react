@@ -7,7 +7,7 @@ export function ProjectsTable() {
         <Container>
             <Content>
                 <div className="title-area">
-                    <h1 className="title-projects default-title"> <span className="h-line"></span> Portifolio</h1>
+                    <h1 className="title-projects default-title">  Portifolio</h1>
                 </div>
                 <div className="projects-table">
                     <ProjectCard></ProjectCard>
