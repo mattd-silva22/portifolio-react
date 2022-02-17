@@ -7,9 +7,9 @@ export const CardContainer = styled.header`
     align-items: center;
     padding: 2.5rem 2.5rem 3rem 2.5rem;
     
-    gap: 1.6rem;
+    gap: 2.8rem;
     transform: scale(0.9);
-    max-width: 300px;
+    max-width: 34.4rem;
     height: 450px;
 
     flex-direction: column;
@@ -29,7 +29,7 @@ export const CardContainer = styled.header`
 
     img {
         width: 100%;
-        height: 220px;
+        height: 216px;
         border-radius: 2.5rem;
     }
 

@@ -26,7 +26,7 @@ export const Content = styled.div`
 
     .projects-table{
         display: flex;
-        gap: 6.4rem;
+        gap: 0.1rem;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;

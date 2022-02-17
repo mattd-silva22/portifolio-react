@@ -1,12 +1,13 @@
 import { CardContainer } from "./styles";
 import testeImg from "../../assets/teste.jpg"
+import testeImg2 from "../../assets/projects-imgs/zomentum.png"
 
 export function ProjectCard(){
 
     return(
         
         <CardContainer>
-            <img src={testeImg} alt="" />
+            <img src={testeImg2} alt="" />
 
             <div className="card-info">
                 <h1>Titulo</h1>
