@@ -1,8 +1,9 @@
 import { AboutMe } from "../../components/AboutMe";
 import { MainBanner } from "../../components/MainBanner";
+import { MainFooter } from "../../components/MainFooter";
 import { MainHeader } from "../../components/MainHeader/MainHeader";
 import { ProjectsTable } from "../../components/ProjectsTable";
-import { Container, Content } from "./styles";
+
 
 export function MainPage() {
 
@@ -13,6 +14,7 @@ export function MainPage() {
       <MainBanner></MainBanner>
       <ProjectsTable/>
       <AboutMe></AboutMe>
+      <MainFooter></MainFooter>
       </>
     )
 }

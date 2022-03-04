@@ -7,6 +7,8 @@ export const Container = styled.section`
     align-items: center;
     justify-content: center;
     width: 100%;
+    
+  
     background-color: ${darken(0.018, "#1e2125")} ;
     
 
@@ -19,6 +21,7 @@ export const Content = styled.div`
     align-items: center;
     width: 90%;
     max-width: 1444px;
+    
 
     
 
