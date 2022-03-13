@@ -20,8 +20,8 @@ const myProjects = [
         "date": "2022",
         "img": "https://raw.githubusercontent.com/mattd-silva22/portifolio-react/main/src/assets/projects-imgs/loteria.png",
         "text": "Loteria Federal, um site ficticio para consulta de resultados da loteria federal. Feito ultilizando React.js, Next.js , Styled-Components e Typescript",
-        "git-repo-link" : "https://github.com/mattd-silva22/zomentum-website.git",
-        "deploy-link" : "https://mattd-silva22.github.io/zomentum-website/"
+        "git-repo-link" : "https://github.com/mattd-silva22/loteria-federal-projeto-infojr-react",
+        "deploy-link" : "https://xenodochial-carson-581d83.netlify.app/"
     },
 
     {
