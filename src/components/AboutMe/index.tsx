@@ -9,12 +9,10 @@ export function AboutMe() {
                         <h1 className="title-about"> <span className="h-line"></span> Quem sou </h1>
                         
                         <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suscipit sodales condimentum. Aenean vitae orci at risus varius sollicitudin. Nulla ex magna, ultrices elementum auctor sed, sollicitudin eget lorem. Vivamus vestibulum venenatis dui, sed maximus libero iaculis id. 
+                             Sou Matheus, Graduando em Sistemas de informação pela UFBA e desenvolvedor Web Front-End construo aplicaçoes modernas utilizando as principais tecnologias do mercado.
                         </p>
 
-                        <p>
-                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut suscipit sodales condimentum. Aenean vitae orci at risus varius sollicitudin. Nulla ex magna, ultrices elementum auctor sed, sollicitudin eget lorem. Vivamus vestibulum venenatis dui, sed maximus libero iaculis id. 
-                        </p>
+                        
 
                         
                         

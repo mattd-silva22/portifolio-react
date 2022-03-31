@@ -21,6 +21,21 @@ export const Content = styled.div`
     align-items: center;
     width: 90%;
     max-width: 1444px;
+
+    .console-log-2 {
+        color: #F24A72
+    }
+    .console-log-1 {
+     color: #6BCB77;
+    }
+
+    .console-log-3 {
+        
+        color: #1F78B4;
+    }
+    .console-log-4 {
+        color: #E45826;
+    }
     
 
     
@@ -32,7 +47,7 @@ export const Content = styled.div`
         flex-direction: column;
         width: 100%;
         justify-content: flex-start;
-        gap: 1.6rem;
+        gap: 1.0rem;
         
         h1 {
             color: white;

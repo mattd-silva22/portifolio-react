@@ -23,7 +23,7 @@ export const Content = styled.div`
     width: 90%;
     max-width: 1444px;
     padding: 9.5rem 0;
-    gap: 6.4rem;
+    gap: 20.0rem;
 
 
     
@@ -39,6 +39,7 @@ export const Content = styled.div`
    
     
     #about-bio  {
+        width: 40%;
         h1 {
         text-align: center;
         font-size: 4.8rem;
@@ -65,9 +66,10 @@ export const Content = styled.div`
     
 
     img {
-        width: 300px;
+        width: 400px;
         border: 5px solid gray;
-        border-radius: 50%;
+        border-radius: 2.5rem;
+        
     }
 
     

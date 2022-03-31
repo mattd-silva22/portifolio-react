@@ -10,6 +10,7 @@ export const Container = styled.header`
     width: 100%;
     background-color: #3c3e41;
     background-color: ${darken(0.018, "#1e2125")} ; 
+    
 
     font-size: 1.6rem;
 
