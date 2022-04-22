@@ -21,7 +21,11 @@ export const Content = styled.div`
     align-items: center;
     width: 90%;
     max-width: 1444px;
+    height:720px ;
 
+    .code-text {
+        font-size: 1.4rem;
+    }
     .console-log-2 {
         color: #F24A72
     }
@@ -51,7 +55,7 @@ export const Content = styled.div`
         
         h1 {
             color: white;
-            font-size: 4.8rem;
+            font-size: 6.4rem;
             
             
 
@@ -60,7 +64,7 @@ export const Content = styled.div`
 
         p {
             
-            font-size: 2.4rem;
+            font-size: 3.2rem;
             color: floralwhite;
         }
 

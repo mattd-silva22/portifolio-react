@@ -24,7 +24,7 @@ export function MainHeader() {
         <Container id="top-header">
             <Content id="header-container">
                 <div id="top-header-logo">
-                    <h1 className="gira">  <span>{"{"}</span><span>/</span><span>{"}"}</span> </h1>
+                    <h1 className="gira">  <span>{"<"}</span><span>MB</span><span>{">"}</span> </h1>
                 </div>
         
                 

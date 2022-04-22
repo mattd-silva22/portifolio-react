@@ -20,13 +20,13 @@ export const Content = styled.div`
     flex-direction: column;
     width: 90%;
     max-width: 1444px;
-    gap: 1.6rem;
+    gap: 3.6rem;
 
     padding: 50px;
 
     .projects-table{
         display: flex;
-        gap: 0.1rem;
+        gap: 3.2rem;
         flex-wrap: wrap;
         align-items: center;
         justify-content: center;

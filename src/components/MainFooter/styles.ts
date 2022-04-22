@@ -13,7 +13,7 @@ export const Container = styled.footer`
 
 export const Content = styled.div`
     display: flex;
-    padding: 4.5rem;
+    padding: 1.6rem;
 
     p {
         font-size: 1.8rem;

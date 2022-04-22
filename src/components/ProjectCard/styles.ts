@@ -7,10 +7,10 @@ export const CardContainer = styled.header`
     align-items: center;
     padding: 2.5rem 2.5rem 3rem 2.5rem;
     
-    gap: 2.8rem;
+    gap: 4.8rem;
     transform: scale(0.9);
     max-width: 34.4rem;
-    height: 475px;
+    height: 500px;
 
     flex-direction: column;
     transition: all .2s ease-in-out;
@@ -37,7 +37,10 @@ export const CardContainer = styled.header`
         display: flex;
         flex-direction: column;
         gap: 1.6rem;
-        min-height: 155px;
+        min-height: 175px ;
+
+        
+
 
         h1 {
             font-size: 3.2rem;

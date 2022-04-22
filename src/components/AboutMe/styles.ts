@@ -61,6 +61,10 @@ export const Content = styled.div`
     #about-bio p {
         margin: 15px 0px;
         font-size: 1.8rem;
+
+        span {
+            font-size: 2.0rem ;
+        }
     }
 
     
@@ -69,6 +73,7 @@ export const Content = styled.div`
         width: 400px;
         border: 5px solid gray;
         border-radius: 2.5rem;
+        border-color:  #1F78B4;
         
     }
 
